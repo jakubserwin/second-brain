@@ -18,7 +18,7 @@ const config: Config = {
       primary: '#D9FFFD',
       'primary-light': '#E8FFFE',
 
-      'grayish-blue': '#294566',
+      'grayish-blue': '#475366',
       'grayish-blue-light': '#98A2B2',
     },
   },
