@@ -1,6 +1,8 @@
 'use client'
 
 // TODO
+// WSZYTKO na temat getServierSideProps oraz wszystko na temat authorization w next 14
+
 // 2. after successfull signup redirect to dashboard page
 // 3. check nextauth session / route guard / middleware (?)
 // 4. dashboard layout UI
