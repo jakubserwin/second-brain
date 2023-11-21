@@ -1,6 +1,8 @@
 'use client'
 
 // TODO
+// react hooks to create useConfig in which I'll store sidebar tabs such as:
+// - dashboard, videos, podcasts, articles,
 // WSZYTKO na temat getServierSideProps oraz wszystko na temat authorization w next 14
 
 // 2. after successfull signup redirect to dashboard page

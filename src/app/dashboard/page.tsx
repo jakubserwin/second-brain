@@ -1,6 +1,5 @@
 import { redirect } from 'next/navigation'
 import { getServerSession } from 'next-auth'
-import NavBar from '@/components/NavBar'
 import { authOptions } from '@/lib'
 
 export default async function Dashboard() {
@@ -12,7 +11,6 @@ export default async function Dashboard() {
 
   return (
     <div>
-      <NavBar />
       signed in <br />
     </div>
   )
