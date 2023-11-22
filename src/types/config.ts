@@ -4,4 +4,5 @@ export interface SidebarTab {
   icon: IconType
   label: string
   color: string
+  link: string
 }

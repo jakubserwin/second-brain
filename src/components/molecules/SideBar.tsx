@@ -10,6 +10,7 @@ export default function SideBar(): JSX.Element {
           icon={tab.icon}
           label={tab.label}
           color={tab.color}
+          link={tab.link}
         />
       ))}
     </div>
