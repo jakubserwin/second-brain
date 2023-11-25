@@ -32,7 +32,7 @@ export default function SignUp() {
           <GoogleButtonComponent />
         </div>
       </form>
-      <div className='bg-primary-light relative flex flex-1 overflow-hidden rounded-3xl px-12'>
+      <div className='relative flex flex-1 overflow-hidden rounded-3xl px-12'>
         <Image
           className='absolute left-0 top-0'
           src={linesSrc}
@@ -43,7 +43,7 @@ export default function SignUp() {
             type='primary'
             text='Save your podcasts and videos in a better way with Bei'
           />
-          <p className='text-grayish-blue-light'>
+          <p className='text-gray-400'>
             Learn coding from scratch with best mentor and become expert in the
             next day! Supportive community, lots of expert will help you to
             improve your coding skill.
