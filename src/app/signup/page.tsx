@@ -1,13 +1,8 @@
 'use client'
-
 // TODO
-// react hooks to create useConfig in which I'll store sidebar tabs such as:
-// - dashboard, videos, podcasts, articles,
-// WSZYTKO na temat getServierSideProps oraz wszystko na temat authorization w next 14
-
-// 2. after successfull signup redirect to dashboard page
-// 3. check nextauth session / route guard / middleware (?)
 // 4. dashboard layout UI
+// - User Profile in NavBar
+// - main section background padding etc.
 
 import { FormEvent } from 'react'
 import Image from 'next/image'
@@ -37,7 +32,7 @@ export default function SignUp() {
           <GoogleButtonComponent />
         </div>
       </form>
-      <div className='relative flex flex-1 overflow-hidden rounded-3xl bg-primary-light px-12'>
+      <div className='bg-primary-light relative flex flex-1 overflow-hidden rounded-3xl px-12'>
         <Image
           className='absolute left-0 top-0'
           src={linesSrc}
